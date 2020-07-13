@@ -1,7 +1,7 @@
 # DATASETS FOR SCORING PREDICTION METHODS OF DDG UPON PROTEIN MUTATION
 
 All the dataset for testing the performance of a new predictor of DDG upom mutation are available at
-the [thermo-prot-ddg] (https://github.com/biobench-sets/thermo-prot-ddg) repository.
+the [thermo-prot-ddg](https://github.com/biobench-sets/thermo-prot-ddg) repository.
 
 1. VB1432:    1432 variants from 79 protein structures corresponding to 65 clusters.
               9 mutations have double experimental data. 1 mutation is not mapping 

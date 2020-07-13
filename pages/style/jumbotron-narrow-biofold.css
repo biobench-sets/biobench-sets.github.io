@@ -1,9 +1,14 @@
-/* Space out content a bit */
+/* Spae out content a bit */
 body {
   padding-top: 20px;
   padding-bottom: 20px;
   background: #4689a3 !important;
 }
+
+a {
+   font-weight:400;
+}
+
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
@@ -46,6 +51,7 @@ body {
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
+  background: white;
   border-bottom: 1px solid #e5e5e5;
 }
 /*
@@ -90,8 +96,14 @@ body {
         float:right;
         width:75%;
 }
+.center_cell {
+        display: inline-block;
+        width:100%;
+}
+
 .text {
 	text-align:left;
+	font-weight:300;
 	font-size:16px !important;
 }
 
@@ -100,6 +112,38 @@ body {
         font-size:10px !important;
 }
 
+.text-justify {
+        text-align:justify;
+        font-size:10px !important;
+}
+
+p.text {
+	margin: 0px; 
+	padding: 0px;
+        text-align:justify;
+	font-weight:300;
+        font-size:16px !important;
+}
+
+p.text-small {
+        margin: 0px;
+        padding: 0px;
+        text-align:left;
+        font-size:14px !important;
+}
+
+p.text-justify {
+        margin: 0px;
+        padding: 0px;
+        text-align:justify;
+        font-size:16px !important;
+}
+
+
+li.text {
+	font-size:16px;
+	font-weight: 300;
+}
 table.radio: td {
         text-align:left;
 	width:60px;
@@ -108,6 +152,8 @@ table.radio: td {
 
 #footer-ok {
   width:100%;
+  text-align:center;
+  border-top: 1px solid #e5e5e5;
 }
 
 #bottom-ok {
@@ -116,8 +162,24 @@ table.radio: td {
   font-size:8pt;
 }
 
-.footer-ok:after {
- content: 'University of Düsseldorf. Universitaetsstr. 1, Building 26.13 (Level U1, Room 86). Düsseldorf, 40225 (Germany).';
+.footer-ok {
+  width:100%;
+  text-align:center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  background: #4689a3 !important;
+}
+
+.footer-ok::after {
+ color: white;
+ content: 'University of Bologna, Via F. Selmi 3, Room 104. Bologna, 40126 (Italy).';
+}
+
+.biofold {
+ font-size:3.5em;
+ text-align:left;
+ font-weight: bold;
 }
 
 table.dataTable tbody tr.even-row{
@@ -127,6 +189,31 @@ table.dataTable tbody tr.odd-row{
     background-color:white;
 }
 
+h4.title {
+    color: #c31e27;
+}
+
+h4.section {
+    font-weight:400;
+    font-size:16px;
+    color: #c31e27;
+}
+
+td.footer {
+   background: #4689a3 !important;
+   color: white;
+}
+td.photo {
+   text-align:left;
+   padding-left: 30px;
+   padding-bottom: 10px;
+}
+
+
+
+td.footer::after {
+content: 'University of Bologna, Via F. Selmi 3, Room 104. Bologna, 40126 (Italy).';
+}
 
 td.pathogenic  {
     color: #ff3333;

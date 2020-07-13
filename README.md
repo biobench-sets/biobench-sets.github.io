@@ -1,5 +1,4 @@
-# biobench-sets.github.io
-Benchmark Datasets for Bioinformatic Applications
+# Benchmark Datasets for Bioinformatic Applications
 
 1. Dataset for scoring prediction methods of DDG upon protein mutation
    - VB1432:    1432 variants from 79 protein structures corresponding to 65 clusters.

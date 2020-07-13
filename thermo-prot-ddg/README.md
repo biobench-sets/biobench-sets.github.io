@@ -1,4 +1,4 @@
-# DATASETS FOR SCORING PREDICTION METHODS OF DDG UPON PROTEIN MUTATION
+# Datasets fro scoring the methods for predicting the DDG upon protein mutation.
 
 All the dataset for testing the performance of a new predictor of DDG upom mutation are available at
 the [thermo-prot-ddg](https://github.com/biobench-sets/thermo-prot-ddg) repository.
